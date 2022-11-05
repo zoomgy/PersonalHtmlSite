@@ -1,0 +1,133 @@
+nav{
+    background-color: rgb(36, 13, 13);
+    height: 60px;
+}
+body{
+    margin:0;
+}
+.nav-logo{
+    width:50px;
+}
+ul{
+    margin:0;
+    padding: 0;
+    display: flex;
+    
+    margin-left: auto;
+    
+}
+.nav-link{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-right : 20px;
+    font-size: 17px;
+    margin-top : 17px;
+
+}
+.containernav{
+    margin: auto;
+    width:50%;
+}
+.nav-button{
+    float: right;
+    /* margin-bottom: 17px; */
+    clear:both
+}
+.subcontainer1{
+    background-color: rgb(251,232,235);
+    width:70%;
+    border-radius: 10px;
+    margin : auto;
+    margin-top: 0px;
+    padding: 17px;
+    margin-bottom: 20px;
+
+
+}
+h2{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight:600;
+    margin-bottom: 5px;
+}
+p{
+    font-family: sans-serif;
+    margin: 0;
+    font-size: 13px;
+}
+.images{
+    width : 225px;
+    margin:15px;
+    border-radius: 5px;
+}
+.subcontainer-images{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.container2para{
+    margin:auto;
+    width:15%;
+}
+.container2h1{
+    margin:auto;
+    width:40%;
+}
+.contaiener2para2{
+    margin:auto;
+    width:50%;
+    text-align: center;
+}
+.container2{
+    height: 150px;
+}
+body{
+    background-image:url(/images/Nature/Background-image.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: center center;
+    background-size: 1200px;
+    background-attachment: fixed;
+}
+.container1{
+    background-color: white;
+    margin:0;
+}
+.single-image{
+    padding: 0 20px 20px;
+}
+.single-image:hover{
+    filter:grayscale();
+    opacity: 0.5;
+}
+footer{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footerp{
+    color: white;
+}
+.footerh{
+    color:white;
+    font-family: sans-serif;
+}
+.Photographydiv{
+    width:25%;
+}
+.Contactdiv{
+    width:25%;
+}
+.newsletter{
+    width:25%;
+}
