@@ -90,7 +90,7 @@ p{
     height: 150px;
 }
 body{
-    background-image:url(/images/Nature/Background-image.jpg);
+    background-image:url(images/Nature/Background-image.jpg);
     background-repeat: no-repeat, repeat;
     background-position: center center;
     background-size: 1200px;
